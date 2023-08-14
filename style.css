@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia;
+}
+
+/*header*/
+
+.header {
+    background-color: #1C1C1C;
+    color: white;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 20px 300px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-right: 2px;
+    position: relative;
+}
+
+.navbar a::after{
+    content: '';
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -7px;
+    transition: 0.5s;
+}
+
+.navbar a:hover::after{
+    width: 100%;
+}
+
+/* main */
+/* intro */
+.intro {
+    background: url(./assets/bg-intro.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-y: bottom;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 600px;
+}
+
+/* titulo da intro */
+.intro h1 {
+    font-size: 50px;
+    padding-top: 200px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+/* pequena margem apos a intro */
+.intro h1::after {
+    content: '';
+    position: absolute;
+    margin-top: 10px;
+    width: 1%;
+    height: 4px;
+    display: block;
+    background-color: white;
+    right: 50%;
+}
+
+.intro p {
+    font-size: 20px;
+    margin-top: 28px;
+    font-style: italic;
+}
+
+/* about */
+
+.about {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    margin-top: 60px;
+}
+
+/* titulo do about */
+.aboutTitle {
+    font-size: large;
+    color: #1C1C1C;
+    padding-bottom: 60px;
+}
+
+/* contem as imagens e os textos flutuantes */
+.aboutImgContent {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.aboutImgContent img {
+    margin-left: 20px;
+}
+
+/* texto flutuando dentro das imagens */
+.aboutImgContent span {
+    position: absolute;
+    background-color: #1C1C1C;
+    color: white;
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+    left: 482px;
+    top: 1020px;
+}
+
+.aboutImgContent .secondSpan {
+    position: absolute;
+    background-color: #1C1C1C;
+    color: white;
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+    left: 962px;
+    top: 1020px;
+}
+
+.aboutImgContent span p {
+    padding-top: 4px;
+    font-style: italic;
+    font-size: 25px;
+}
+
+/* texto do cafe */
+.aboutContent {
+    font-style: oblique;
+    margin-top: 100px;
+    font-style: italic;
+    font-size: 18px;
+    color: #363636;
+}
+
+.aboutContent p {
+    font-size: 25px;
+}
+
+/* produtos */
+
+.products {
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    background-color: #e8dad0;
+    width: 100%;
+    height: 800px;
+    margin-top: 60px;
+    border-bottom: 3px solid #dfcdc0;
+    border-top: 3px solid #dfcdc0;
+    margin-bottom: 100px;
+}
+
+/* engloba todo o produtow */
+.prodContent {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    display: flex;
+}
+
+/* criacao das 3 caixas contento os circulos e os textos */
+.prodSection1 {
+    width: 460px;
+}
+
+.prodSection2 {
+    width: 460px;
+}
+
+.prodSection3 {
+    width: 460px;
+}
+
+/* contem os circulos */
+.wrapCircle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* os circulos */
+.secCircle {
+    background-color: saddlebrown;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+}
+
+.innerCircle{
+    width: 220px;
+    height: 220px;
+    border-radius: 110px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-top: 15px;
+    padding-top: 10px;
+    background-color: #e8dad0;
+}
+
+.lastCircle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-left: 10px;
+    background-color: darkkhaki;
+}
+
+/* textos */
+
+.secTitle {
+    padding-top: 40px;
+}
+
+.secText {
+    display: block;
+    padding-top: 30px;
+    text-align: start;
+    padding-left: 60px;
+}
+
+.secText p {
+    font-style: oblique;
+    font-size: 18px;
+}
+
+/* botao saiba mais */
+.products a{
+    text-decoration: none;
+    color: #1C1C1C;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 250px;
+    height: 70px;
+    border: 3px solid #1C1C1C;
+    padding: 18px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 25px;
+    transition: 0.2s all ease-in-out 0s;
+}
+
+.products a:hover{
+    color: white;
+    background-color: #1C1C1C;
+}
+
+/* portifolio */
+
+.portifolio{
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px 40px;
+}
+
+.port {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.portImage{
+    margin-left: 315px;
+
+}
+
+.portImage img{
+    width: 130%;
+    height: auto;
+    display: block;
+}
+
+.portContent{
+    margin-right: 400px;
+}
+
+.portContent h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.portContent p{
+    font-size: 23px;
+    padding-bottom: 50px;
+}
+
+.portContent a{
+    text-decoration: none;
+    color: #1C1C1C;
+    margin-top: 20px;
+    width: 250px;
+    height: 70px;
+    border: 3px solid #1C1C1C;
+    padding: 14px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 25px;
+    transition: 0.2s all ease-in-out 0s;
+}
+
+.portContent a:hover{
+    color: white;
+    background-color: #1C1C1C;
+}
+
+/* FOOTER */
+/* newsletter */
+
+.newsL{
+    width: 100%;
+    height: 200px;
+    background-color: #e8dad0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.newsText{
+    padding: 0px 40px;
+    margin-right: 50px;
+}
+
+.newsText h1{
+    font-size: 50px;
+}
+
+.newsText p{
+    font-style: italic;
+    margin-right: 240px;
+    font-size: 30px;
+}
+
+.newsForm{
+    display: flex;
+    border: 3px solid #1C1C1C;
+    height: 60px;
+    overflow: hidden;
+}
+
+.newsForm input{
+    width: 350px;
+    padding-left: 10px;
+    font-style: italic;
+    font-size: 25px;
+    background-color: #e8dad0;
+    border: none;
+}
+
+.newsForm button{
+    text-decoration: none;
+    color: white;
+    background-color: #1C1C1C;
+    width: 150px;
+    height: 57px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200px;
+    background-color: #dfcdc0;
+}
+
+.footerTxt{
+    font-size: 25px;
+    margin-right: 40px;
+}
+
+.footerTxt p{
+    display: flex;
+    justify-content: start;
+}
+
+.footerImg img{
+    width: 130%;
+}
