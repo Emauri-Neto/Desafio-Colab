@@ -785,9 +785,6 @@ html{
 }
 
 @media(max-width: 425px){
-    body{
-        width: 460px;
-    }
     .header .logo{
         margin-left: 45%;
     }
