@@ -7,3 +7,5 @@ Projeto HTML e CSS para o desafio lançado aos novos integrantes da equipe COLAB
 - [ ] Tela Celular
 - [x] Adicionar Script
 - [x] Adicionar animações
+
+# Link: https://emauri-neto.github.io/Desafio-Colab/
