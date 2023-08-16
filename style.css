@@ -292,7 +292,6 @@
 .portImage img{
     width: 130%;
     height: auto;
-    display: block;
 }
 
 .portContent{
@@ -408,4 +407,361 @@
 
 .footerImg img{
     width: 130%;
+}
+
+
+
+/* Responsividade da pagina*/
+@media(max-width: 1700px){
+    .portImage{
+        padding-left: 200px;
+        margin: 0;
+        transition: .2s;
+    }
+    .portContent{
+        margin: 0;
+        padding-right: 200px;
+        transition: .2s;
+    }
+    .footerTxt{
+        margin-right: 190px;
+        transition: .2s;
+    }
+}
+
+@media(max-width: 1582px){
+    .portImage{
+        padding-left: 180px;
+        transition: .2s;
+    }
+    .portContent{
+        padding-right: 180px;
+        transition: .2s;
+    }
+}
+
+@media(max-width: 1535px){
+    .header{
+        transition: .2s;
+    }
+    main{
+        padding: 0px;
+        transition: .2s;
+    }
+    footer{
+        padding: 0px;
+        transform: .2s;
+    }
+}
+
+@media(max-width: 1531px){
+    .portImage{
+        padding-left: 150px;
+        transition: .2s;
+    }
+    .portContent{
+        padding-right: 150px;
+        transition: .2s;
+    }
+}
+
+@media(max-width: 1474px){
+    .portImage{
+        padding-left: 130px;
+        transition: .3s;
+    }
+    .portContent{
+        padding-right: 130px;
+        transition: .3s;
+    }
+    .footerTxt{
+        padding-right: 65px;
+        transition: .2s;
+    }
+}
+
+@media(max-width: 1430px){
+    .portImage{
+        padding-left: 110px;
+        transition: .3s;
+    }
+    .portContent{
+        padding-right: 110px;
+        transition: .3s;
+    }
+}
+
+@media(max-width: 1390px){
+    .products{
+        height: auto;
+    }
+    .prodContent{
+        display: grid;
+    }
+
+    .prodSection1{
+        padding-bottom: 50px;
+    }
+    .prodSection2{
+        padding-bottom: 50px;
+    }
+    .prodSection3{
+        padding-bottom: 50px;
+    }
+    .products a{
+        margin-bottom: 100px;
+    }
+    .portImage{
+        padding-left: 90px;
+        transition: .3s;
+    }
+    .portContent{
+        padding-right: 90px;
+        transition: .3s;
+    }
+}
+
+@media(max-width: 1353px){
+    .portImage{
+        padding-left: 70px;
+        transition: .3s;
+    }
+    .portContent{
+        padding-right: 70px;
+        transition: .3s;
+    }
+}
+
+@media(max-width: 1311px){
+    .portImage{
+        padding-left: 50px;
+        transition: .3s;
+    }
+    .portContent{
+        padding-right: 50px;
+        transition: .3s;
+    }
+    .aboutImgContent span {
+        left: 172px;
+        transition: .3s;
+    }
+    
+    .aboutImgContent .secondSpan {
+        left: 652px;
+        transition: .3s;
+    }
+}
+
+@media(max-width: 1280px){
+    .newsText h1{
+        font-size: 40px;
+    }
+    .newsText p{
+        margin-right: 110px;
+    }
+    .portImage{
+        padding-left: 30px;
+        transition: .3s;
+    }
+    .portContent{
+        padding-right: 30px;
+        transition: .3s;
+    }
+    .aboutImgContent span {
+        left: 170px;
+        transition: .3s;
+    }
+    
+    .aboutImgContent .secondSpan {
+        left: 650px;
+        transition: .3s;
+    }
+}
+
+@media(max-width: 1280px){
+    .header  .navbar{
+        margin-right: -100px;
+    }
+    .portImage{
+        padding-left: 100px;
+        transition: .3s;
+    }
+    .portContent{
+        padding-right: 20px;
+        transition: .3s;
+    }
+    .aboutImgContent span {
+        left: 234px;
+        transition: .3s;
+    }
+    
+    .aboutImgContent .secondSpan {
+        left: 714px;
+        transition: .3s;
+    }
+}
+
+@media(max-width: 1215px){
+    .portImage{
+        padding-left: 0px;
+        transition: .3s;
+    }
+    .portContent{
+        padding-right: 0px;
+        transition: .3s;
+    }
+    .footerImg{
+        padding-right: 50px;
+        transition: .3s;
+    }
+}
+
+@media(max-width: 1170px){
+    .newsText{
+        padding: 0;
+    }
+    .port{
+        display: grid;
+    }
+}
+
+@media(max-width: 1079px){
+    .newsText h1{
+        font-size: 30px;
+    }
+    .newsText p{
+        font-size: 20px;
+    }
+    .footerTxt{
+        font-size: 20px;
+    }
+    .header{
+        width: 120%;
+        transition: 0.4s;
+    }
+}
+
+@media(max-width: 1024px){
+   .header{
+        max-width: 100%;
+   }
+
+   .header .navbar{
+        position: absolute;
+        right: 25%;
+   }
+
+   .header .logo{
+        position: absolute;
+        left: 20%;
+   }
+   .aboutImgContent span {
+    left: 42px;
+    transition: .3s;
+}
+
+    .aboutImgContent .secondSpan {
+        left: 522px;
+        transition: .3s;
+    }
+    .port{
+        justify-content: center;
+        margin-right: 200px;
+    }
+}
+
+@media(max-width: 912px){
+    .aboutImgContent span {
+        left: -10px;
+        transition: .3s;
+    }
+    .aboutImgContent .secondSpan {
+        left: 466px;
+        transition: .3s;
+    }
+    .aboutImgContent{
+        overflow: hidden;
+    }
+    .intro p{
+        font-size: 25px;
+    }
+    .secText p{
+        font-size: 25px;
+    }
+    .newsText p{
+        margin-left: 80px;
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 768px){
+    .header .navbar{
+        position: absolute;
+        right: 20%;
+   }
+
+   .header .logo{
+        position: absolute;
+        left: 15%;
+   }
+    .about{
+        height: auto;
+    }
+    .aboutImgContent{
+        display: block;
+    }
+    .aboutImgContent img{
+        padding-bottom: 50px;
+    }
+    .aboutImgContent span {
+        left: 154px;
+        transition: .3s;
+    }
+    .aboutImgContent .secondSpan {
+        left: 154px;
+        top: 1274px;
+        transition: .3s;
+    }
+    .newsL{
+        display: grid;
+    }
+    .newsForm input{
+        width: 450px;
+    }
+}
+
+@media(max-width: 540px){
+    .header{
+        padding: 0;
+        margin: 0;
+        height: 150px;
+        display: grid;
+    }
+    .header .logo{
+        position: inherit;
+        margin-left: 54%;
+    }
+    .header .navbar{
+        position: inherit;
+    }
+    .intro{
+
+    }
+    .aboutImgContent span {
+        left: -10px;
+        transition: .3s;
+    }
+    .aboutImgContent .secondSpan {
+        left: 466px;
+        transition: .3s;
+    }
+    .aboutImgContent span {
+        left: 0;
+        transition: .3s;
+    }
+    .aboutImgContent .secondSpan {
+        left: 0;
+        top: 1274px;
+        transition: .3s;
+    }
 }
