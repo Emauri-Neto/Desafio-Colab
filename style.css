@@ -595,12 +595,12 @@ html{
         transition: .3s;
     }
     .aboutImgContent span {
-        left: 234px;
+        left: 170px;
         transition: .3s;
     }
     
     .aboutImgContent .secondSpan {
-        left: 714px;
+        left: 650px;
         transition: .3s;
     }
 }
@@ -748,8 +748,8 @@ html{
     .header .navbar{
         position: inherit;
     }
-    .intro{
-
+    .intro h1::after{
+        width: 3%;
     }
     .aboutImgContent span {
         left: -10px;
@@ -760,12 +760,52 @@ html{
         transition: .3s;
     }
     .aboutImgContent span {
-        left: 0;
+        left: 40px;
+        top: 1091px;
         transition: .3s;
     }
     .aboutImgContent .secondSpan {
-        left: 0;
-        top: 1274px;
+        left: 40px;
+        top: 1345px;
         transition: .3s;
+    }
+    .aboutContent p{
+        font-size: 20px;
+    }
+
+    .footerTxt{
+        padding-right: 0px;
+        margin-right: 100px;
+    }
+
+    .footerImg img{
+        width: 150%;
+        padding-right: 20px;
+    }
+}
+
+@media(max-width: 425px){
+    body{
+        width: 460px;
+    }
+    .header .logo{
+        margin-left: 45%;
+    }
+    .navbar a{
+        margin-left: 18px;
+    }
+    .intro h1{
+        font-size: 30px;
+    }
+    .intro p{
+        font-size: 18px;
+    }
+    
+    .aboutImgContent img{
+        margin-left: 0;
+        width: 414px;
+    }
+    .aboutContent p{
+        font-size: 16px;
     }
 }
