@@ -785,24 +785,42 @@ html{
 }
 
 @media(max-width: 425px){
-    .header .logo{
-        margin-left: 45%;
+    .aboutImgContent span {
+        left: 10px;
+        top: 1091px;
+        transition: .3s;
     }
-    .navbar a{
-        margin-left: 18px;
-    }
-    .intro h1{
-        font-size: 30px;
-    }
-    .intro p{
-        font-size: 18px;
-    }
-    
-    .aboutImgContent img{
-        margin-left: 0;
-        width: 414px;
+    .aboutImgContent .secondSpan {
+        left: 10px;
+        top: 1345px;
+        transition: .3s;
     }
     .aboutContent p{
-        font-size: 16px;
+        margin-top: 50px;
+        font-size: 17px;
+    }
+    .secText{
+        padding: 0;   
+    }
+    .secText p{
+        font-size: 18px;
+    }
+    .prodContent{
+        width: 425px;
+    }
+    .prodSection1, .prodSection2, .prodSection3{
+        width: 425px;
+    }
+    .port{
+        margin: 0;
+    }
+    .portImage img{
+        width: 425px;
+    }
+    .portContent a{
+        margin-left: 25%;
+    }
+    .footerTxt p{
+        font-size: 17px;
     }
 }
