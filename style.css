@@ -785,19 +785,25 @@ html{
 }
 
 @media(max-width: 425px){
+    .aboutImgContent img{
+        margin: 0;
+    }
     .aboutImgContent span {
-        left: 10px;
+        left: -10px;
         top: 1091px;
         transition: .3s;
     }
     .aboutImgContent .secondSpan {
-        left: 10px;
+        left: -10px;
         top: 1345px;
         transition: .3s;
     }
     .aboutContent p{
-        margin-top: 50px;
+        margin-top: 25px;
         font-size: 17px;
+    }
+    .aboutContent{
+        margin: 0;
     }
     .secText{
         padding: 0;   
